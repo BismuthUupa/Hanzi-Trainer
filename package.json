@@ -1,26 +1,26 @@
 {
-  "name": "weeblendar",
+  "name": "hanzitrainer",
   "version": "1.0.0",
-  "description": "Calender. Weeb'd.",
+  "description": "Learn some Hanzi",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BismuthUupa/Weeblendar.git"
+    "url": "git+https://github.com/BismuthUupa/Hanzi-Trainer.git"
   },
   "keywords": [
-    "weeb",
-    "animu",
-    "calendar",
-    "hurr",
-    "durr"
+    "hanzi",
+    "chinese",
+    "characters",
+    "words",
+    "hsk"
   ],
   "author": "BismuthUupa",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/BismuthUupa/Weeblendar/issues"
+    "url": "https://github.com/BismuthUupa/Hanzi-Trainer/issues"
   },
-  "homepage": "https://github.com/BismuthUupa/Weeblendar#readme"
+  "homepage": "https://github.com/BismuthUupa/Hanzi-Trainer#readme"
 }

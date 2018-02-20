@@ -34,23 +34,38 @@ const {app, BrowserWindow, Menu} = require('electron')
             label: 'Menu',
             submenu: [
                 {
-                    label: 'Stuff'
+                    label: 'View Word List HSK 1'
                 }, 
                 {
-                    label: 'Animu Image Macros'
+                    label: 'View Word List HSK 2'
                 }, 
                 {
-                    label: 'Animu Sound Bits',
+                    label: 'View Word List HSK 3'
+                }, 
+                {
+                    label: 'View Word List HSK 4'
+                }, 
+                {
+                    label: 'View Word List HSK 5'
+                }, 
+                {
+                    label: 'View Word List HSK 6'
+                }, 
+                {
+                    label: 'Source Page',
                     click(){
-                        shell.openExternal('http://audio.animu.date')
+                        shell.openExternal('http://www.hskhsk.com/word-lists.html')
                     }
 
+                }, 
+                {
+                    label: 'Settings'
                 }, 
                 {
                     type: 'seperator'
                 },
                 {
-                    label: 'Fuck off',
+                    label: 'Goodbye',
                     click(){
                         app.quit()
                     }
